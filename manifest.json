@@ -1,0 +1,42 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Markzuckerberg"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.2.9"
+			],
+			"dash": [
+				"0.8.11"
+			]
+		}
+	},
+	"header": {
+		"name": "Custom Arrow",
+		"description": "Hotdog",
+		"min_engine_version": [
+			1,
+			18,
+			0
+		],
+		"uuid": "ac5ff957-89bf-4b28-8fe8-ea669b09a15a",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "de033819-12f5-4b9b-9d28-49997261c405",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}
