@@ -1,0 +1,71 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.arrow",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 1.5,
+				"visible_bounds_offset": [0, 0.25, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 1, 0],
+					"cubes": [
+						{
+							"origin": [-3, 0, -2],
+							"size": [2, 2, 13],
+							"uv": {
+								"north": {"uv": [11, 23], "uv_size": [2, 4]},
+								"east": {"uv": [0, 13], "uv_size": [13, 4]},
+								"south": {"uv": [13, 23], "uv_size": [2, 4]},
+								"west": {"uv": [13, 13], "uv_size": [13, 4]},
+								"up": {"uv": [3, 20], "uv_size": [2, 13]},
+								"down": {"uv": [5, 33], "uv_size": [2, -13]}
+							}
+						},
+						{
+							"origin": [2, 0, -2],
+							"size": [2, 2, 13],
+							"uv": {
+								"north": {"uv": [15, 23], "uv_size": [2, 4]},
+								"east": {"uv": [14, 0], "uv_size": [13, 4]},
+								"south": {"uv": [20, 23], "uv_size": [2, 4]},
+								"west": {"uv": [14, 4], "uv_size": [13, 4]},
+								"up": {"uv": [7, 20], "uv_size": [2, 13]},
+								"down": {"uv": [9, 33], "uv_size": [2, -13]}
+							}
+						},
+						{
+							"origin": [-1, 0, -4],
+							"size": [3, 3, 17],
+							"uv": {
+								"north": {"uv": [11, 20], "uv_size": [3, 3]},
+								"east": {"uv": [14, 8], "uv_size": [17, 3]},
+								"south": {"uv": [14, 20], "uv_size": [3, 3]},
+								"west": {"uv": [0, 17], "uv_size": [17, 3]},
+								"up": {"uv": [17, 17], "uv_size": [3, 17]},
+								"down": {"uv": [0, 37], "uv_size": [3, -17]}
+							}
+						},
+						{
+							"origin": [-3, -2, -2],
+							"size": [7, 2, 13],
+							"uv": {
+								"north": {"uv": [20, 19], "uv_size": [7, 2]},
+								"east": {"uv": [14, 11], "uv_size": [13, 2]},
+								"south": {"uv": [20, 21], "uv_size": [7, 2]},
+								"west": {"uv": [20, 17], "uv_size": [13, 2]},
+								"up": {"uv": [0, 0], "uv_size": [7, 13]},
+								"down": {"uv": [7, 13], "uv_size": [7, -13]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
